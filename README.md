@@ -1,36 +1,5 @@
 # enterprise-zero-trust-security
 Complete Zero Trust Architecture framework aligned with NIST 800-207, including diagrams, maturity models, risk scoring, CI/CD, and SOC playbooks.
-# 🔐 Zero Trust Architecture Framework  
-A complete, enterprise-ready Zero Trust Architecture framework aligned with **NIST 800‑207**, including diagrams, maturity models, heatmaps, roadmap timelines, vendor risk scoring, CI/CD security pipeline, SOC playbooks, and Power BI dashboard concepts.
-
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Security](https://img.shields.io/badge/Security-Zero%20Trust-blue)
-![Architecture](https://img.shields.io/badge/Architecture-Enterprise-orange)
-![Compliance](https://img.shields.io/badge/Compliance-NIST%20800--207-lightgrey)
-![License](https://img.shields.io/badge/License-MIT-green)
-
----
-
-## 📘 Overview  
-This repository provides a **complete Zero Trust Architecture blueprint** that any organization can adopt to strengthen identity, device, network, application, and data security.  
-It includes:
-
-- Zero Trust Architecture Diagram  
-- Zero Trust Maturity Model  
-- Zero Trust Heatmap  
-- Zero Trust Roadmap Timeline  
-- Vendor Risk Scoring Model  
-- Zero Trust Policy Template  
-- Zero Trust Dashboard Concept (Power BI)  
-- Physical Security Supporting Layer  
-- Zero Trust CI/CD Pipeline Concept  
-- SOC Playbook for Zero Trust Alerts  
-- GitHub Project Board Structure  
-
-All content is aligned with **NIST 800‑207** and designed for **SOC, IAM, Risk, DevSecOps, and Security Architecture teams**.
-
----
-
 # 🧱 Zero Trust Architecture Diagram (Mermaid)
 
 ```mermaid
@@ -45,7 +14,7 @@ flowchart TD
     A --> H[Telemetry & Monitoring]
     A --> I[Risk-Based Mitigation]
 
-    A --> J[Physical Security (Supporting Layer)]
+    A --> J[Physical Security Supporting Layer]
 
     C --> C1[MFA & Conditional Access]
     C --> C2[RBAC & SSO]
